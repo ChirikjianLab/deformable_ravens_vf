@@ -23,8 +23,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpu',            default='0')
     parser.add_argument('--disp',           action='store_true')
-    parser.add_argument('--data_dir',       default=None) # Directory containing the training data (ravens_tvf/data_train)
-    parser.add_argument('--models_dir',     default=None) # Directory containing the trained models (ravens_tvf/gctn_models)
+    parser.add_argument('--data_dir',       default=None) # Directory containing the training data (ravens_visual_foresight/data_train)
+    parser.add_argument('--models_dir',     default=None) # Directory containing the trained models (ravens_visual_foresight/gctn_models)
     parser.add_argument('--task',           default='put-block-base-mcts') # This is just a placeholder.
     parser.add_argument('--agent',          default='transporter-goal')
     parser.add_argument('--num_demos',      default='10')
